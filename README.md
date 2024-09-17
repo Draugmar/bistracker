@@ -5,7 +5,7 @@
 
 ## What is this?
 
-This is a **Best In Slot (BIS) tracker** for World of Warcraft players in my group. Yes, it’s hardcoded. No, I’m not planning on changing that, because this isn’t designed for the public. It tracks dungeons, items, and which player needs what. If you’re not **Asterion**, **Mizu**, **Sheciro**, or **Ulv**, this project isn’t for you.
+This is a **Best In Slot (BIS) tracker** for World of Warcraft players in my group. Yes, it’s hardcoded. No, I’m not planning on changing that, because this isn’t designed for the public. It tracks dungeons, items, and which player needs what. If you’re not **[Reizan](https://x.com/ReizanMir)**, **[Mizu](https://x.com/mizuedg)**, **[Sheciro](https://x.com/Sheciro)**, or **[Parteyunques](https://x.com/parteyunques)**, this project isn’t for you.
 
 If you want to know how it works, it’s simple:
 

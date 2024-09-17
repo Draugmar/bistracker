@@ -1,0 +1,76 @@
+.bg-dark {
+    background-color: #171717 !important;
+}
+.text-primary {
+    color: #51EA5A !important;
+}
+.text-green {
+    color: #51EA5A;
+}
+
+.list-group-item {
+    background-color: #1C1C1C;
+    color: #F0F0F0;
+    border-color: #333;
+}
+
+.deathknight-color {
+    background-color: #C41F3B !important;
+}
+.druid-color {
+    background-color: #FF7D0A !important;
+}
+.priest-color {
+    background-color: #FFFFFF !important;
+    color: #171717 !important;
+}
+.hunter-color {
+    background-color: #ABD473 !important;
+}
+
+input[type="checkbox"] {
+    background-color: #333;
+    border: 2px solid #51EA5A;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+input[type="checkbox"]:checked {
+    background-color: #51EA5A;
+}
+
+[data-wowhead] {
+    color: #51EA5A;
+    text-decoration: none;
+}
+[data-wowhead]:hover {
+    color: #FFFFFF;
+}
+
+.list-group-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.druid-color {
+    background-color: #FF7D0A;
+}
+
+.hunter-color {
+    background-color: #ABD473;
+}
+
+.priest-color {
+    background-color: #FFFFFF;
+}
+
+.deathknight-color {
+    background-color: #C41F3B;
+}
+
+.card-header img {
+    float: left;
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}

@@ -1,17 +1,30 @@
+.progress-bar-container {
+    background-color: #333;
+    border-radius: 5px;
+    height: 10px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.progress-fill {
+    height: 100%;
+    border-radius: 5px;
+}
+
 .bg-dark {
     background-color: #171717 !important;
 }
 .text-primary {
-    color: #51EA5A !important;
+    color: #F0F0F0 !important;
 }
-.text-green {
-    color: #51EA5A;
-}
-
 .list-group-item {
     background-color: #1C1C1C;
     color: #F0F0F0;
     border-color: #333;
+}
+
+[data-wowhead] {
+    color: #F0F0F0;
 }
 
 .deathknight-color {
@@ -39,38 +52,33 @@ input[type="checkbox"]:checked {
     background-color: #51EA5A;
 }
 
-[data-wowhead] {
-    color: #51EA5A;
-    text-decoration: none;
-}
-[data-wowhead]:hover {
-    color: #FFFFFF;
-}
-
 .list-group-item input[type="checkbox"] {
     margin-right: 10px;
 }
 
-.druid-color {
-    background-color: #FF7D0A;
-}
-
-.hunter-color {
-    background-color: #ABD473;
-}
-
-.priest-color {
-    background-color: #FFFFFF;
-}
-
-.deathknight-color {
-    background-color: #C41F3B;
-}
-
 .card-header img {
+    display: flex;
+    align-items: center;
     float: left;
     margin-right: 10px;
     width: 50px;
     height: 50px;
     border-radius: 50%;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
+
+span[style*='float: right'] {
+    font-style: italic;
+    color: #F0F0F0;
+}
+
+@media (min-width: 768px) {
+    .col-md-6 {
+        max-width: 50%;
+    }
 }
